@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cs480</groupId>
+  <artifactId>bitcoinapp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <repositories>
+  	<repository>
+        <id>api-v1-client-java-mvn-repo</id>
+        <url>https://raw.githubusercontent.com/blockchain/api-v1-client-java/mvn-repo/</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+        </snapshots>
+	</repository>
+  </repositories>
+    
+  <dependencies>
+   	<dependency>
+  	     <groupId>info.blockchain</groupId>
+  	     <artifactId>api</artifactId>
+         <version>LATEST</version> <!-- for a specific version see the list of tags -->
+    </dependency>
+  </dependencies>
+  
+</project>
+
+
