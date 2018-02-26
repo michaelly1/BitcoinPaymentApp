@@ -5,6 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <repositories>
+
   	<repository>
         <id>api-v1-client-java-mvn-repo</id>
         <url>https://raw.githubusercontent.com/blockchain/api-v1-client-java/mvn-repo/</url>
@@ -21,8 +22,18 @@
   	     <artifactId>api</artifactId>
          <version>LATEST</version> <!-- for a specific version see the list of tags -->
     </dependency>
+
+      <!-- https://mvnrepository.com/artifact/org.json/json -->
+      <dependency>
+          <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
+          <version>20180130</version>
+      </dependency>
+
   </dependencies>
-  
+
+
+
 </project>
 
 
