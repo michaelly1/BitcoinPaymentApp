@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e50de2-55b4-43ab-a66e-4327ec03d81c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/App.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/GUI.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/GUI.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/HTTPRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/HTTPRequestHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/User.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/User.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,25 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginForm.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.form">
+      <file leaf-file-name="WalletForm.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WalletForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WalletForm.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
+      <file leaf-file-name="LoginForm.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
           </provider>
@@ -58,6 +43,26 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WalletForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -99,8 +104,8 @@
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" />
       </list>
     </option>
   </component>
@@ -189,33 +194,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BitcoinPaymentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BitcoinPaymentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="BitcoinPaymentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BitcoinPaymentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
-              <item name="RegisterForm" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="BitcoinPaymentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BitcoinPaymentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WalletForm" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
@@ -368,16 +346,15 @@
       <workItem from="1519613461860" duration="993000" />
       <workItem from="1519614722422" duration="14011000" />
       <workItem from="1519642286883" duration="85000" />
-      <workItem from="1519685002776" duration="2103000" />
+      <workItem from="1519685002776" duration="2890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20189000" />
+    <option name="totallyTimeSpent" value="20976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -388,7 +365,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19849785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13951011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13951011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -423,11 +400,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1261#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1305#2125#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1046#1261#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1305#2125#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,15 +423,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#863#1165#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1645#1845#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1886#2370#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -471,11 +440,11 @@
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1261#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1305#2125#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1046#1261#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1305#2125#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -494,15 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#863#1165#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1645#1845#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1886#2370#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,27 +702,11 @@
         <state relative-caret-position="165">
           <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1261#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1305#2125#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#863#1165#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1645#1845#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1886#2370#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1046#1261#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1305#2125#0" expanded="false" />
+            <element signature="e#2124#2125#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -795,6 +740,14 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -807,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding />
         </state>
       </provider>
