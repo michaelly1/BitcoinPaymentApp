@@ -9,8 +9,8 @@
         <module name="bitcoinapp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8">
-      <module name="bitcoinapp" target="1.8" />
+    <bytecodeTargetLevel>
+      <module name="bitcoinapp" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

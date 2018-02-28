@@ -8,17 +8,18 @@ import java.io.File;
 public class GUI {
 
     public LoginForm lf;
-    public static File database = new File(System.getProperty("user.dir")+"/wallet/");
-    ;
+    public static File database = new File(System.getProperty("user.dir")+"/wallet");
 
     public GUI()
     {
 
         if(!database.exists())
         {
-            database.mkdirs();
+            System.out.println("Making dir...");
+            database.mkdir();
         }
 
+        System.out.println("Starting UI...");
         lf = new LoginForm();
     }
 

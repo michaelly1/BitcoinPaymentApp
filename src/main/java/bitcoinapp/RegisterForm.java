@@ -23,10 +23,10 @@ public class RegisterForm extends JFrame{
     public String name;
     public String pass;
     public String email;
-    public String ID;
+    public String ID = "";
     public String ip = "http://138.68.14.231:3030/";
-    public String walletname;
-    public String addr;
+    public String walletname = "";
+    public String addr = "";
 
     /*
     Register form/screen, should be done?
@@ -45,15 +45,11 @@ public class RegisterForm extends JFrame{
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
+
                 /*
-    when a user registers and clicks the login button, should auto login if created newly created account
-    should store the newly created account in a database or file and compare
-
-    or
-
-    if a user decides to go back to the login screen without making an account
-
+                    if a user decides to go back to the login screen without making an account
                 */
+                LoginForm lf = new LoginForm();
 
                 dispose();
             }
@@ -67,20 +63,27 @@ public class RegisterForm extends JFrame{
         registerButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if(email != null && pass != null)
-                    name = textField1.getText();
+                System.out.println("Creating account...");
 
-                if(name != null && email != null)
-                    pass = passwordField1.getText();
+                name = textField1.getText();
 
-                if(pass != null && name != null)
-                    email = textField3.getText();
+                pass = passwordField1.getText();
+
+                email = textField3.getText();
 
                 walletname = textField2.getText();
 
                 CreateWalletResponse wallet = null;
 
-                if(name != null && pass != null) {
+                if(name.isEmpty() || pass.isEmpty() || email.isEmpty())
+                {
+                    return;
+                }
+
+                if(!name.isEmpty() && !pass.isEmpty() && !email.isEmpty()) {
+
+                    System.out.println("Creating wallet...");
+
                     try {
                         wallet = Wallet.create(ip, pass, "4089708b-a883-4e0a-b922-4035b9b3e579", null, name, email);
                     } catch (Exception e1) {
@@ -90,7 +93,7 @@ public class RegisterForm extends JFrame{
                     ID = wallet.getIdentifier();
                     addr = wallet.getAddress();
 
-                    if(walletname != null) {
+                    if(!walletname.isEmpty()) {
                         try {
                             createWalletFile(walletname);
                         } catch (Exception e1) {
@@ -99,10 +102,8 @@ public class RegisterForm extends JFrame{
                     }
                     else
                     {
-                        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-
                         try {
-                            createWalletFile("bitcoin"+timeStamp);
+                            createWalletFile("wallet"+name+ID);
                         } catch (Exception e1) {
                             e1.printStackTrace();
                         }
@@ -114,17 +115,17 @@ public class RegisterForm extends JFrame{
             }
 
             private void createWalletFile(String wn) throws IOException {
-                File walletfile = new File(GUI.database + wn + ".wallet");
+                File walletfile = new File(GUI.database + "/" + wn + ".txt");
 
                 if (!walletfile.exists()) {
-                    walletfile.mkdir();
+                    walletfile.createNewFile();
                     Writer filewriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(walletfile), "utf-8"));
                     filewriter.write(name+"\n"+pass+"\n"+email+"\n"+ID+"\n"+addr+"\n");
+                    filewriter.close();
                 }
                 else{
-                    JOptionPane.showMessageDialog(null, "A wallet already exists with this filename...");
-                    String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-                    createWalletFile("bitcoin"+timeStamp);
+                    JOptionPane.showMessageDialog(null, "A wallet already exists with this filename... Please choose a different wallet name");
+                    createWalletFile("wallet"+name+ID);
                 }
 
             }
