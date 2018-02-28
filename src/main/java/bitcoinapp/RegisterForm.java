@@ -45,10 +45,24 @@ public class RegisterForm extends JFrame{
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                LoginForm lf = new LoginForm(name, pass, email, ID);
+                /*
+    when a user registers and clicks the login button, should auto login if created newly created account
+    should store the newly created account in a database or file and compare
+
+    or
+
+    if a user decides to go back to the login screen without making an account
+
+                */
+
                 dispose();
             }
         });
+
+
+        /*
+        Creates a new wallet that asks for a name, password, email, and a wallet name, saves this to a .wallet file / text file along with the unique ID
+         */
 
         registerButton.addMouseListener(new MouseAdapter() {
             @Override
@@ -109,6 +123,8 @@ public class RegisterForm extends JFrame{
                 }
                 else{
                     JOptionPane.showMessageDialog(null, "A wallet already exists with this filename...");
+                    String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
+                    createWalletFile("bitcoin"+timeStamp);
                 }
 
             }
