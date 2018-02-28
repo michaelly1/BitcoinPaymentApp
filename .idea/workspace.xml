@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e50de2-55b4-43ab-a66e-4327ec03d81c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bitcoinapp.iml" afterPath="$PROJECT_DIR$/bitcoinapp.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java" afterPath="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/App.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/App.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/GUI.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/GUI.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/HTTPRequestHandler.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/HTTPRequestHandler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$1.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$2.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$3.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$4.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/LoginForm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/Main.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/RegisterForm$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/RegisterForm$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/RegisterForm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/User.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bitcoinapp/WalletForm.class" afterPath="$PROJECT_DIR$/target/classes/bitcoinapp/WalletForm.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +47,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WalletForm.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="WalletForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -46,11 +71,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WalletForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+      <file leaf-file-name="RegisterForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="-789">
+              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wallet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/Wallet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateWalletResponse.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/entity/CreateWalletResponse.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTTPRequestHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/HTTPRequestHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -59,8 +136,8 @@
       <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="504">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,14 +175,14 @@
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.form" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java" />
       </list>
     </option>
   </component>
@@ -123,8 +200,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
-    <option name="y" value="60" />
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -135,15 +211,17 @@
           <State>
             <id />
           </State>
-        </expanded-state>
-        <selected-state>
           <State>
-            <id>Android</id>
+            <id>Java</id>
           </State>
-        </selected-state>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+        </expanded-state>
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -159,9 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,14 +270,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BitcoinPaymentApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BitcoinPaymentApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bitcoinapp" type="462c0819:PsiDirectoryNode" />
+              <item name="RegisterForm" type="e9f4de52:FormNode" />
+            </path>
+            <path>
+              <item name="BitcoinPaymentApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -347,14 +438,19 @@
       <workItem from="1519614722422" duration="14011000" />
       <workItem from="1519642286883" duration="85000" />
       <workItem from="1519685002776" duration="2890000" />
+      <workItem from="1519699715811" duration="2692000" />
+      <workItem from="1519718916300" duration="1724000" />
+      <workItem from="1519723042995" duration="1630000" />
+      <workItem from="1519772310629" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20976000" />
+    <option name="totallyTimeSpent" value="32714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -362,10 +458,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19849785" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.378198" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13951011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14589989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -374,7 +470,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -395,17 +491,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/HTTPRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1046#1261#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1305#2125#0" expanded="false" />
-            <element signature="e#2124#2125#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -431,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102384">
           <caret line="5688" column="62" lean-forward="false" selection-start-line="5688" selection-start-column="4" selection-end-line="5688" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -439,13 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1046#1261#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1305#2125#0" expanded="false" />
-            <element signature="e#2124#2125#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -471,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102384">
           <caret line="5688" column="62" lean-forward="true" selection-start-line="5688" selection-start-column="4" selection-end-line="5688" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -479,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,19 +717,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/Component.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96462">
           <caret line="5688" column="62" lean-forward="false" selection-start-line="5688" selection-start-column="4" selection-end-line="5688" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,53 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/entity/CreateWalletResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <marker date="1518474261287" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1518474261287" expanded="true" signature="353:458" ph="{...}" />
-            <marker date="1518474261287" expanded="false" signature="493:504" ph=" { " />
-            <marker date="1518474261287" expanded="false" signature="527:533" ph=" }" />
-            <marker date="1518474261287" expanded="false" signature="565:576" ph=" { " />
-            <marker date="1518474261287" expanded="false" signature="596:602" ph=" }" />
-            <marker date="1518474261287" expanded="false" signature="632:643" ph=" { " />
-            <marker date="1518474261287" expanded="false" signature="661:667" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/Wallet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <marker date="1518474261287" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1518474261287" expanded="false" signature="150:710" ph="..." />
-            <marker date="1518474261287" expanded="true" signature="1055:1158" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="1338:2056" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="2147:2225" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="2339:2578" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="2706:2867" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="2998:4066" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="4130:4401" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="4477:5312" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="5393:5955" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="6034:6562" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="6646:7014" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="7100:7468" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="7522:7748" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="7820:8031" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="8107:8357" ph="{...}" />
-            <marker date="1518474261287" expanded="true" signature="8395:8727" ph="{...}" />
-            <marker date="1518474261287" expanded="false" signature="8754:8765" ph=" { " />
-            <marker date="1518474261287" expanded="false" signature="8829:8835" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,44 +735,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1046#1261#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1305#2125#0" expanded="false" />
-            <element signature="e#2124#2125#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/HTTPRequestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -740,10 +780,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/LoginForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="504">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -753,16 +801,29 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/entity/CreateWalletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/WalletForm.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/blockchain/api/2.0.0/api-2.0.0.jar!/info/blockchain/api/wallet/Wallet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="219">
+          <caret line="36" column="39" lean-forward="false" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bitcoinapp/RegisterForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-789">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -771,6 +832,30 @@
     <states>
       <state key="ArquillianSettingsConfigurable.UI">
         <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -803,6 +888,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bitcoinapp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -817,6 +915,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.google.code.gson:gson:2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

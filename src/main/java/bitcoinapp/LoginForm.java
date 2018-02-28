@@ -32,6 +32,7 @@ public class LoginForm extends JFrame{
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
+
                 /*
                     when a user doesn't register for a new account
                     checks a database or file of IDs and passwords to login

@@ -24,8 +24,8 @@ public class App {
 
 	protected static App getInstance() throws Exception{
 		if(instance == null){
-			instance.run();
 			instance = new App();
+			instance.run();
 		}
 		return instance;
 	}
