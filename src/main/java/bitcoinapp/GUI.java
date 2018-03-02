@@ -8,7 +8,7 @@ import java.io.File;
 public class GUI {
 
     public LoginForm lf;
-    public static File database = new File(System.getProperty("user.dir")+"/wallet");
+    public static File database = new File(System.getProperty("user.dir")+"/bitcoinapp/wallet");
 
     public GUI()
     {
@@ -16,7 +16,7 @@ public class GUI {
         if(!database.exists())
         {
             System.out.println("Making dir...");
-            database.mkdir();
+            database.mkdirs();
         }
 
         System.out.println("Starting UI...");

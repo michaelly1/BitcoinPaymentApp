@@ -77,6 +77,7 @@ public class RegisterForm extends JFrame{
 
                 if(name.isEmpty() || pass.isEmpty() || email.isEmpty())
                 {
+                    JOptionPane.showMessageDialog(null, "Missing name, email, or pass");
                     return;
                 }
 
@@ -120,11 +121,11 @@ public class RegisterForm extends JFrame{
                 if (!walletfile.exists()) {
                     walletfile.createNewFile();
                     Writer filewriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(walletfile), "utf-8"));
-                    filewriter.write(name+"\n"+pass+"\n"+email+"\n"+ID+"\n"+addr+"\n");
+                    filewriter.write(name+"\n"+ID+"\n"+pass+"\n"+email+"\n"+addr+"\n");
                     filewriter.close();
                 }
                 else{
-                    JOptionPane.showMessageDialog(null, "A wallet already exists with this filename... Please choose a different wallet name");
+                    JOptionPane.showMessageDialog(null, "A wallet already exists with this filename...Choosing a different filename");
                     createWalletFile("wallet"+name+ID);
                 }
 
