@@ -20,6 +20,7 @@ public class GUI {
         }
 
         System.out.println("Starting UI...");
+
         lf = new LoginForm();
     }
 

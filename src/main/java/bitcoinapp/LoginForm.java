@@ -22,7 +22,7 @@ public class LoginForm extends JFrame{
         this.setContentPane(panel1);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
-        this.setSize(1280, 720);
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
 
         ArrayList<String> filedir = new ArrayList<>();
@@ -79,7 +79,7 @@ public class LoginForm extends JFrame{
                     {
                         if(pass.equals(filePass))
                         {
-                            WalletForm wf = new WalletForm();
+                            WalletForm wf = new WalletForm(selectwallet);
                             dispose();
                         }
                     }

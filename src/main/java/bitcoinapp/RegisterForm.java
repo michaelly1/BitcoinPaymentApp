@@ -45,7 +45,6 @@ public class RegisterForm extends JFrame{
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-
                 /*
                     if a user decides to go back to the login screen without making an account
                 */
@@ -54,7 +53,6 @@ public class RegisterForm extends JFrame{
                 dispose();
             }
         });
-
 
         /*
         Creates a new wallet that asks for a name, password, email, and a wallet name, saves this to a .wallet file / text file along with the unique ID
@@ -66,10 +64,11 @@ public class RegisterForm extends JFrame{
                 System.out.println("Creating account...");
 
                 name = textField1.getText();
-
+                name = name.trim();
                 pass = passwordField1.getText();
-
+                pass = pass.trim();
                 email = textField3.getText();
+                email = email.trim();
 
                 walletname = textField2.getText();
 
