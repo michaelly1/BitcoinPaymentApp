@@ -19,6 +19,12 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
+
+	public User(String id, String pass)
+	{
+		guid = id;
+		password = pass;
+	}
+
 	
 }

@@ -24,7 +24,8 @@ public class RegisterForm extends JFrame{
     public String pass;
     public String email;
     public String ID = "";
-    public String ip = "http://138.68.14.231:3030/";
+    public static String ip = "http://138.68.14.231:3030/";
+    public static String apicode = "4089708b-a883-4e0a-b922-4035b9b3e579";
     public String walletname = "";
     public String addr = "";
 
@@ -85,7 +86,7 @@ public class RegisterForm extends JFrame{
                     System.out.println("Creating wallet...");
 
                     try {
-                        wallet = Wallet.create(ip, pass, "4089708b-a883-4e0a-b922-4035b9b3e579", null, name, email);
+                        wallet = Wallet.create(ip, pass, apicode, null, name, email);
                     } catch (Exception e1) {
                         e1.printStackTrace();
                     }

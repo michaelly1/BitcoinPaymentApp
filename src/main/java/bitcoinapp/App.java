@@ -55,8 +55,8 @@ public class App {
 	 */
 	private void init() throws Exception{
 
-		httpReq = new HTTPRequestHandler();
-		user = new User();
+//		httpReq = new HTTPRequestHandler();
+//		user = new User();
 
 
 		/*

@@ -1,5 +1,7 @@
 package bitcoinapp;
 
+import info.blockchain.api.wallet.Wallet;
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.io.*;
@@ -79,7 +81,9 @@ public class LoginForm extends JFrame{
                     {
                         if(pass.equals(filePass))
                         {
-                            WalletForm wf = new WalletForm(selectwallet);
+                            User user = new User(fileID, filePass);
+                            Wallet wallet = new Wallet(RegisterForm.ip, RegisterForm.apicode, fileID, filePass);
+                            WalletForm wf = new WalletForm(selectwallet, wallet, user);
                             dispose();
                         }
                     }
