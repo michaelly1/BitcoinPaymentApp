@@ -2,3 +2,5 @@
 bitcoinapp/wallet/
 
 *.class
+
+target/
