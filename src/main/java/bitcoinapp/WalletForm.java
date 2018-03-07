@@ -62,6 +62,7 @@ public class WalletForm extends JFrame{
         /*
         opens up the payment form to send transactions
          */
+
         sendButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
