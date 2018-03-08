@@ -36,7 +36,7 @@ public class PaymentForm extends JFrame {
                 amount = textField2.getText();
                 long amounttoSAT = (long) (Float.parseFloat(amount) * 100000000);
                 try {
-                    if(wallet.getBalance() <= amounttoSAT)
+                    if(wallet.getBalance() <= amounttoSAT+10000L)
                     {
                         JOptionPane.showMessageDialog(null,"Insufficent funds...");
                         return;

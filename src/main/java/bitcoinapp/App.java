@@ -39,7 +39,8 @@ public class App {
 	}
 
 	private App() throws Exception{
-		init();
+		//useless
+//		init();
 	}
 
 
@@ -53,7 +54,7 @@ public class App {
 	 * the httpReq instance.
 	 * @throws Exception
 	 */
-	private void init() throws Exception{
+//	private void init() throws Exception{
 
 //		httpReq = new HTTPRequestHandler();
 //		user = new User();
@@ -139,5 +140,5 @@ public class App {
 		 *
 		 * */
 
-	}
+//	}
 }

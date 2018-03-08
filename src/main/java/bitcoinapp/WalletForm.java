@@ -4,7 +4,12 @@ package bitcoinapp;
 Screen after logging into the app, should show wallet, addresses, balance, etc...
  */
 
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import info.blockchain.api.blockexplorer.entity.Transaction;
 import info.blockchain.api.wallet.Wallet;
+import info.blockchain.api.wallet.entity.Address;
+import org.json.JSONObject;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -14,6 +19,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 public class WalletForm extends JFrame{
 
@@ -32,6 +39,8 @@ public class WalletForm extends JFrame{
     public ArrayList<String> addrs;
     public Wallet wallet = null;
     public User user = null;
+    private List<Transaction> transactions;
+
 
     public WalletForm(File selectwallet, Wallet w, User u) throws Exception {
         walletfile = selectwallet;
@@ -59,6 +68,17 @@ public class WalletForm extends JFrame{
             addrs.add(temp);
         }
 
+        String test = "https://blockchain.info/rawaddr/";
+
+        JsonObject testjson = HTTPRequestHandler.executeRequest(test);
+
+        transactions = new ArrayList<Transaction>();
+
+        for (JsonElement txElem : testjson.get("txs").getAsJsonArray()) {
+            JsonObject addrObj = txElem.getAsJsonObject();
+            transactions.add(new Transaction(addrObj));
+        }
+        
         /*
         opens up the payment form to send transactions
          */
@@ -84,7 +104,6 @@ public class WalletForm extends JFrame{
             }
         });
     }
-
 
 
 }

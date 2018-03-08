@@ -7,6 +7,8 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.json.JSONObject;
 
 public class HTTPRequestHandler {
@@ -21,7 +23,7 @@ public class HTTPRequestHandler {
   	 * @return JSON file
 	 * @throws Exception if a connection is unable to be established
 	 */
-	public JSONObject executeRequest(String urlToRead) throws Exception {
+	public static JsonObject executeRequest(String urlToRead) throws Exception {
 	      StringBuilder result = new StringBuilder();
 	      URL url = new URL(urlToRead);
 	      HttpURLConnection conn = (HttpURLConnection) url.openConnection();
@@ -37,10 +39,10 @@ public class HTTPRequestHandler {
 	         result.append(line);
 	      }
 	      rd.close();
+
+		JsonObject json = new JsonParser().parse(result.toString()).getAsJsonObject();
 	      
-	      JSONObject json = new JSONObject(result.toString());
-	      
-	      return json;
+		return json;
 	}
 	
 	/**
@@ -53,7 +55,7 @@ public class HTTPRequestHandler {
 	 * @return true if payment was successful, false otherwise
 	 * @throws Exception if something goes wrong with the HTTP request
 	 */
-	public boolean sendPayment(User user, HashMap<String, String> paramsMap) throws Exception{
+/*	public boolean sendPayment(User user, HashMap<String, String> paramsMap) throws Exception{
 		String endpoint = user.getGuid() + "/payment?";
 		String parameters = paramsToString(paramsMap);
 		String URL = BASE_URL + endpoint + parameters;
@@ -65,7 +67,7 @@ public class HTTPRequestHandler {
 		}else{
 			return true;
 		}
-	}
+	}*/
 	
 	/**
 	 * Checks the balance of the user that is logged in by calling the executeRequest method.
@@ -77,7 +79,7 @@ public class HTTPRequestHandler {
 	 * @return balance of account if successful, -1 if otherwise
 	 * @throws Exception if something goes wrong with the HTTP request
 	 */
-	public int retrieveBalance(User user, HashMap<String, String> paramsMap) throws Exception{
+/*	public int retrieveBalance(User user, HashMap<String, String> paramsMap) throws Exception{
 		String endpoint = user.getGuid() + "/balance?";
 		String parameters = paramsToString(paramsMap);
 		String URL = BASE_URL + endpoint + parameters;
@@ -89,7 +91,7 @@ public class HTTPRequestHandler {
 		}
 		
 		return response.getInt("balance");
-	}
+	}*/
 	
 	/**
 	 * Converts the hashmap of parameters to a string which will be
@@ -98,7 +100,7 @@ public class HTTPRequestHandler {
 	 * @param params hashmap of parameters
 	 * @return parameters as a string
 	 */
-	private String paramsToString(HashMap<String, String> params){
+/*	private String paramsToString(HashMap<String, String> params){
 		String paramString = "";
 		
 		for(Map.Entry<String, String> entry : params.entrySet()){
@@ -113,7 +115,7 @@ public class HTTPRequestHandler {
 	    }
 		
 		return paramString;
-	}
+	}*/
 	
 	
 }

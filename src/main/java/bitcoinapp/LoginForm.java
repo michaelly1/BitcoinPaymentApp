@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class LoginForm extends JFrame{
 
@@ -17,6 +18,7 @@ public class LoginForm extends JFrame{
     private JPanel panel1;
     private JLabel usernameIDLabel;
     private JComboBox comboBox1;
+    private JLabel walletLabel;
 
     public LoginForm()
     {
@@ -100,6 +102,7 @@ public class LoginForm extends JFrame{
             }
         });
     }
+
 
 
 }
