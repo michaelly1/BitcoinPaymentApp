@@ -6,6 +6,8 @@ Screen after logging into the app, should show wallet, addresses, balance, etc..
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import info.blockchain.api.blockexplorer.entity.Input;
+import info.blockchain.api.blockexplorer.entity.Output;
 import info.blockchain.api.blockexplorer.entity.Transaction;
 import info.blockchain.api.wallet.Wallet;
 import info.blockchain.api.wallet.entity.Address;
@@ -68,17 +70,6 @@ public class WalletForm extends JFrame{
             addrs.add(temp);
         }
 
-        String test = "https://blockchain.info/rawaddr/";
-
-        JsonObject testjson = HTTPRequestHandler.executeRequest(test);
-
-        transactions = new ArrayList<Transaction>();
-
-        for (JsonElement txElem : testjson.get("txs").getAsJsonArray()) {
-            JsonObject addrObj = txElem.getAsJsonObject();
-            transactions.add(new Transaction(addrObj));
-        }
-        
         /*
         opens up the payment form to send transactions
          */
@@ -100,6 +91,10 @@ public class WalletForm extends JFrame{
             public void mouseClicked(MouseEvent e) {
                 user = null;
                 wallet = null;
+                transactions = null;
+                
+                LoginForm lf = new LoginForm();
+                dispose();
 
             }
         });
