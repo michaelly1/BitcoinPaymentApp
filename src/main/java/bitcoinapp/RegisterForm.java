@@ -1,10 +1,13 @@
 package bitcoinapp;
 
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
 import info.blockchain.api.APIException;
 import info.blockchain.api.wallet.Wallet;
 import info.blockchain.api.wallet.entity.CreateWalletResponse;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.*;
@@ -12,7 +15,7 @@ import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class RegisterForm extends JFrame{
+public class RegisterForm extends JFrame {
     private JTextField textField1;
     private JTextField textField3;
     private JButton registerButton;
@@ -34,12 +37,12 @@ public class RegisterForm extends JFrame{
     Need to have external server for wallet creation service
      */
 
-    public RegisterForm()
-    {
+    public RegisterForm() {
         this.setTitle("bitcoin");
         this.setContentPane(rfpanel);
         this.setVisible(true);
         this.pack();
+        this.setSize(1024, 768);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -75,13 +78,12 @@ public class RegisterForm extends JFrame{
 
                 CreateWalletResponse wallet = null;
 
-                if(name.isEmpty() || pass.isEmpty() || email.isEmpty())
-                {
+                if (name.isEmpty() || pass.isEmpty() || email.isEmpty()) {
                     JOptionPane.showMessageDialog(null, "Missing name, email, or pass");
                     return;
                 }
 
-                if(!name.isEmpty() && !pass.isEmpty() && !email.isEmpty()) {
+                if (!name.isEmpty() && !pass.isEmpty() && !email.isEmpty()) {
 
                     System.out.println("Creating wallet...");
 
@@ -94,17 +96,15 @@ public class RegisterForm extends JFrame{
                     ID = wallet.getIdentifier();
                     addr = wallet.getAddress();
 
-                    if(!walletname.isEmpty()) {
+                    if (!walletname.isEmpty()) {
                         try {
                             createWalletFile(walletname);
                         } catch (Exception e1) {
                             e1.printStackTrace();
                         }
-                    }
-                    else
-                    {
+                    } else {
                         try {
-                            createWalletFile("wallet"+name+ID);
+                            createWalletFile("wallet" + name + ID);
                         } catch (Exception e1) {
                             e1.printStackTrace();
                         }
@@ -121,12 +121,11 @@ public class RegisterForm extends JFrame{
                 if (!walletfile.exists()) {
                     walletfile.createNewFile();
                     Writer filewriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(walletfile), "utf-8"));
-                    filewriter.write(name+"\n"+ID+"\n"+pass+"\n"+email+"\n"+addr+"\n");
+                    filewriter.write(name + "\n" + ID + "\n" + pass + "\n" + email + "\n" + addr + "\n");
                     filewriter.close();
-                }
-                else{
+                } else {
                     JOptionPane.showMessageDialog(null, "A wallet already exists with this filename...Choosing a different filename");
-                    createWalletFile("wallet"+name+ID);
+                    createWalletFile("wallet" + name + ID);
                 }
 
             }

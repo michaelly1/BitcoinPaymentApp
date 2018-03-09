@@ -1,14 +1,17 @@
 package bitcoinapp;
 
+import com.intellij.uiDesigner.core.GridConstraints;
+import com.intellij.uiDesigner.core.GridLayoutManager;
 import info.blockchain.api.wallet.Wallet;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class LoginForm extends JFrame{
+public class LoginForm extends JFrame {
 
     private JPasswordField passwordField1;
     private JTextField textField1;
@@ -20,12 +23,12 @@ public class LoginForm extends JFrame{
     private JComboBox comboBox1;
     private JLabel walletLabel;
 
-    public LoginForm()
-    {
+    public LoginForm() {
         this.setTitle("bitcoin");
         this.setContentPane(panel1);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
+        this.setSize(1024, 768);
         this.setLocationRelativeTo(null);
         this.setVisible(true);
 
@@ -33,9 +36,8 @@ public class LoginForm extends JFrame{
 
         File[] temp = GUI.database.listFiles();
 
-        for(File f : temp)
-        {
-            if(f.isFile())
+        for (File f : temp) {
+            if (f.isFile())
                 filedir.add(f.getName());
 
         }
@@ -63,13 +65,12 @@ public class LoginForm extends JFrame{
                 String un = textField1.getText();
                 String pass = passwordField1.getText();
 
-                if(un.isEmpty() || pass.isEmpty())
-                {
+                if (un.isEmpty() || pass.isEmpty()) {
                     JOptionPane.showMessageDialog(null, "Empty username or password");
                     return;
                 }
 
-                File selectwallet = new File(GUI.database+ "/" + (String) comboBox1.getSelectedItem());
+                File selectwallet = new File(GUI.database + "/" + (String) comboBox1.getSelectedItem());
 
                 BufferedReader r = null;
 
@@ -79,18 +80,14 @@ public class LoginForm extends JFrame{
                     String fileID = r.readLine();
                     String filePass = r.readLine();
 
-                    if(un.equals(fileUN) || un.equals(fileID))
-                    {
-                        if(pass.equals(filePass))
-                        {
+                    if (un.equals(fileUN) || un.equals(fileID)) {
+                        if (pass.equals(filePass)) {
                             User user = new User(fileID, filePass);
                             Wallet wallet = new Wallet(RegisterForm.ip, RegisterForm.apicode, fileID, filePass);
                             WalletForm wf = new WalletForm(selectwallet, wallet, user);
                             dispose();
                         }
-                    }
-                    else
-                    {
+                    } else {
                         JOptionPane.showMessageDialog(null, "Incorrect username/id or password");
                         return;
                     }
@@ -102,7 +99,6 @@ public class LoginForm extends JFrame{
             }
         });
     }
-
 
 
 }

@@ -46,6 +46,8 @@ public class App {
 
 	/*
 	This should all be done in seperate classes...
+
+	The API should also be doing everything...
 	 */
 
 
