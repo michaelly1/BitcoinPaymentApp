@@ -6,26 +6,19 @@ Screen after logging into the app, should show wallet, addresses, balance, etc..
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.intellij.uiDesigner.core.GridConstraints;
-import com.intellij.uiDesigner.core.GridLayoutManager;
 import info.blockchain.api.blockexplorer.entity.Input;
 import info.blockchain.api.blockexplorer.entity.Output;
 import info.blockchain.api.blockexplorer.entity.Transaction;
 import info.blockchain.api.wallet.Wallet;
-import info.blockchain.api.wallet.entity.Address;
-import org.json.JSONObject;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class WalletForm extends JFrame {
 
@@ -73,9 +66,10 @@ public class WalletForm extends JFrame {
         addr.addElement(addrs);
         list1.setModel(addr);
 
-
+        /*
+        Thread to retrieve transaction and balance on wallet's address
+         */
         String test = "https://blockchain.info/rawaddr/" + addrs;
-
         Thread threadtest = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -139,7 +133,7 @@ public class WalletForm extends JFrame {
         });
 
         /*
-        Should set everything to null and log out
+        Logout button, should set most or everything to null to let garbage collection clean it
          */
         logoutButton.addMouseListener(new MouseAdapter() {
             @Override

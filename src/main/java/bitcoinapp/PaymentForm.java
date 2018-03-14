@@ -37,6 +37,10 @@ public class PaymentForm extends JFrame {
 
         JOptionPane.showMessageDialog(null, "Please check the average transaction fee at https://bitcoinfees.info/");
 
+        /*
+        Thread to retrieve the balance of the wallet
+         */
+
         Thread balthread = new Thread(new Runnable() {
             @Override
             public void run() {

@@ -45,6 +45,10 @@ public class LoginForm extends JFrame {
         comboBox1.setModel(new DefaultComboBoxModel(filedir.toArray()));
         comboBox1.setEditable(true);
 
+        /*
+            Registration form when clicked
+         */
+
         createAnAccountButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -54,13 +58,14 @@ public class LoginForm extends JFrame {
             }
         });
 
+        /*
+            User selects a wallet file and then logs in with said wallet file's correct user/id and pass
+        */
+
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
 
-                /*
-                User selects a wallet file and then logs in with said wallet file's correct user id and pass
-                 */
 
                 String un = textField1.getText();
                 String pass = passwordField1.getText();
@@ -95,10 +100,7 @@ public class LoginForm extends JFrame {
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }
-
             }
         });
     }
-
-
 }

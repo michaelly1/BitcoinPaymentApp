@@ -1,19 +1,12 @@
 package bitcoinapp;
 
-import com.intellij.uiDesigner.core.GridConstraints;
-import com.intellij.uiDesigner.core.GridLayoutManager;
-import info.blockchain.api.APIException;
 import info.blockchain.api.wallet.Wallet;
 import info.blockchain.api.wallet.entity.CreateWalletResponse;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.*;
-import java.nio.file.Path;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 
 public class RegisterForm extends JFrame {
     private JTextField textField1;
@@ -32,11 +25,6 @@ public class RegisterForm extends JFrame {
     public String walletname = "";
     public String addr = "";
 
-    /*
-    Register form/screen, should be done?
-    Need to have external server for wallet creation service
-     */
-
     public RegisterForm() {
         this.setTitle("bitcoin");
         this.setContentPane(rfpanel);
@@ -46,20 +34,21 @@ public class RegisterForm extends JFrame {
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        /*
+        If a user decides to go back to the login screen/form
+         */
+
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                /*
-                    if a user decides to go back to the login screen without making an account
-                */
-                LoginForm lf = new LoginForm();
 
+                LoginForm lf = new LoginForm();
                 dispose();
             }
         });
 
         /*
-        Creates a new wallet that asks for a name, password, email, and a wallet name, saves this to a .wallet file / text file along with the unique ID
+        Creates a new wallet that asks for a name, password, email, and a wallet name, saves this to a .txt file along with the unique ID and wallet address
          */
 
         registerButton.addMouseListener(new MouseAdapter() {
